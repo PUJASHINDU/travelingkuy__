@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: #D8D5D5;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    padding: 0px; 
+    background-color: transparent;   
+    background-image:url(../img/Booking-Hotel/Hotel-header.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.button-back{
+    padding: 10px;
+    margin-top: -80px; 
+}
+
+.button-back button{
+    width: 120px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.button-back button:hover{
+    opacity: 50%;
+}
+
+.button-back a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.label-head{
+width: 440px;
+padding: 10px;
+border-radius: 5px 0 0 5px ;
+background-color: #255A65;
+color: #ffffff;
+font-family: 'Poppins', sans-serif;
+cursor: pointer;
+border: none;
+margin-top: 200px;
+opacity: 60%;
+margin-right: 0; /* Elemen akan mepet ke kanan sepenuhnya */
+/* font-size: 40px; */
+}
+/* start nav */
+.main-nav-link
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #1D232E;
+    font-weight: 700;
+    height: 33rem;
+    font-size: 1rem;
+    transition: all 0.3s;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+    color: #e67e22;
+}
+
+.nav-cta:link,
+.nav-cta:visited{
+    color: #fff;
+    
+}
+
+.nav-cta:link,
+.nav-cta:visited:hover{
+    color: #e67e22;
+}
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+}
+
+/* end nav */
+
+/* start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .form-input-book {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  .container header {
+    font-size: 1.5rem;
+    color: #0e4a5c;
+    font-weight: 700;
+    text-align: center;
+  }
+  .container .form {
+    margin-top: 30px;
+  }
+  .form .input-box {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .input-box label {
+    color: #333;
+  }
+  .form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+  }
+  .input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .form .column {
+    display: flex;
+    column-gap: 15px;
+  }
+ 
+  .address :where(input, .select-box) {
+    margin-top: 15px;
+  }
+  .select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  .form-submit-btn {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.form-submit-btn button {
+    padding: 10px 20px; 
+    background-color: rgba(11, 60, 66, 0.7);
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.form-submit-btn button:hover {
+  background: rgba(27, 53, 75, 0.7);
+  color: rgb(255, 255, 255);
+}
+  /*Responsive*/
+
+  /*end Option BookinG Room */
+
+
+/* footer */
+
+footer{
+    background-color: #084c57;
+    margin-top: 80px;
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins',  sans-serif;
+    padding-top: 40px;
+    color: aliceblue;
+  }
+  
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-weight: 500;
+  }
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  
+  .social-icons{
+    margin-top: 10px;
+    font-size: 30px;
+    
+  }
+  
+  .social-icons i{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #cf711f;
+  }
+  .footer-bottom{
+    background-color: #182F52;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #cf711f;
+  } 
+/* end footer */
+/* end footer */
